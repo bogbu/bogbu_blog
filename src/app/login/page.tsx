@@ -1,8 +1,8 @@
-import Image from 'next/image'
+import './styles/login.scss';
 
 export default function Login() {
     return (
-        <div>
+        <div className={"login"}>
             로그인
         </div>
     )

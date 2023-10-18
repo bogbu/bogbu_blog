@@ -56,13 +56,15 @@
     "ts.external.directory.path": "C:\\projects\\portfolio\\bogbu\\packages\\portfolio\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\projects\portfolio\bogbu\packages\portfolio\src\app\login" />
+      <recent name="C:\projects\portfolio\bogbu\packages\portfolio\src\app\board" />
       <recent name="C:\projects\portfolio\bogbu\packages\portfolio\src\app\page2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\projects\portfolio\bogbu\packages\portfolio\src\assets" />
       <recent name="C:\projects\portfolio\bogbu\packages\portfolio\pages" />
       <recent name="C:\projects\portfolio\bogbu\packages\portfolio\src\app\test" />
       <recent name="C:\projects\portfolio\bogbu\packages\portfolio\src\app" />
@@ -77,7 +79,40 @@
       <option name="presentableId" value="Default" />
       <updated>1697567983620</updated>
       <workItem from="1697567984763" duration="3561000" />
-      <workItem from="1697572887190" duration="701000" />
+      <workItem from="1697572887190" duration="2514000" />
+      <workItem from="1697641638629" duration="2194000" />
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1697573983574</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697573983574</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add sass">
+      <option name="closed" value="true" />
+      <created>1697574249442</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697574249442</updated>
+    </task>
+    <task id="LOCAL-00003" summary="set example style in login page">
+      <option name="closed" value="true" />
+      <created>1697574264169</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697574264169</updated>
+    </task>
+    <task id="LOCAL-00004" summary="set example style in login page">
+      <option name="closed" value="true" />
+      <created>1697574270795</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697574270795</updated>
     </task>
     <task id="LOCAL-00001" summary="add vitest">
       <option name="closed" value="true" />
@@ -122,6 +157,6 @@
     <MESSAGE value="add vite config" />
     <MESSAGE value="add vitest config" />
     <MESSAGE value="workspace" />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace" />ame="LAST_COMMIT_MESSAGE" value="fix gitigniore file (add workspace)" />
   </component>
 </project>
