@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="080925e7-9c58-4a9e-9be2-284ea4d8418c" name="Changes" comment="">
+    <list default="true" id="080925e7-9c58-4a9e-9be2-284ea4d8418c" name="Changes" comment="workspace">
       <change afterPath="$PROJECT_DIR$/src/app/board/page.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vitest.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/board/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/board/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,9 +79,49 @@
       <workItem from="1697567984763" duration="3561000" />
       <workItem from="1697572887190" duration="701000" />
     </task>
+    <task id="LOCAL-00001" summary="add vitest">
+      <option name="closed" value="true" />
+      <created>1697650256906</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697650256906</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add vite config">
+      <option name="closed" value="true" />
+      <created>1697650264930</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697650264930</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add vitest config">
+      <option name="closed" value="true" />
+      <created>1697650269208</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697650269208</updated>
+    </task>
+    <task id="LOCAL-00004" summary="workspace">
+      <option name="closed" value="true" />
+      <created>1697650276983</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697650276983</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add vitest" />
+    <MESSAGE value="add vite config" />
+    <MESSAGE value="add vitest config" />
+    <MESSAGE value="workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace" />
   </component>
 </project>
