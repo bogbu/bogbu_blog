@@ -1,8 +1,8 @@
 import type {Metadata} from 'next'
-import {Inter} from 'next/font/google'
 import './globals.css'
 import React from "react";
 import {newspaperColor} from "@/assets/color/color";
+import {Layout} from "@/layout/layout";
 
 
 export const metadata: Metadata = {
@@ -19,7 +19,11 @@ export default function RootLayout({
         <html lang="en">
         <body style={{
             background: newspaperColor
-        }}>{children}</body>
+        }}>
+        <Layout>
+            {children}
+        </Layout>
+        </body>
         </html>
     )
 }
