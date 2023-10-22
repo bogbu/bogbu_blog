@@ -5,7 +5,6 @@ import React from "react";
 export default function Home() {
     return (
         <div className={"w-full "}>
-            <Logo/>
             <div className={newspaperFont.className}>
                 Main Page
                 <div className={generalFont.className}>
