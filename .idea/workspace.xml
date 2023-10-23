@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="080925e7-9c58-4a9e-9be2-284ea4d8418c" name="Changes" comment="workspace">
-      <change afterPath="$PROJECT_DIR$/src/app/board/page.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/board/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/board/page.tsx" afterDir="false" />
+    <list default="true" id="2e29e22b-5a4b-4966-b0b0-fc6961d96623" name="Changes" comment="add framer-motion">
+      <change afterPath="$PROJECT_DIR$/src/layout/path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/path.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stores/states.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/layout.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/logo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/logo.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +23,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
+        <option value="SCSS File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -33,130 +41,285 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 1
+  &quot;associatedIndex&quot;: 3
 }</component>
-  <component name="ProjectId" id="2Wu28I2i8BaLvmrSdIc82z7liAI" />
+  <component name="ProjectId" id="2X5mAeLGGQMcjcTxpmnGwqRqoJk" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/projects/portfolio/bogbu/packages/portfolio/src/app/login",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\projects\\portfolio\\bogbu\\packages\\portfolio\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\projects\\portfolio\\bogbu\\packages\\portfolio\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\projects\portfolio\bogbu\packages\portfolio\src\app\login" />
-      <recent name="C:\projects\portfolio\bogbu\packages\portfolio\src\app\board" />
-      <recent name="C:\projects\portfolio\bogbu\packages\portfolio\src\app\page2" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\projects\portfolio\bogbu\packages\portfolio\src\assets" />
-      <recent name="C:\projects\portfolio\bogbu\packages\portfolio\pages" />
-      <recent name="C:\projects\portfolio\bogbu\packages\portfolio\src\app\test" />
-      <recent name="C:\projects\portfolio\bogbu\packages\portfolio\src\app" />
-    </key>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="gitignore update">
+      <option name="closed" value="true" />
+      <created>1697667700816</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697667700816</updated>
+    </task>
+    <task id="LOCAL-00002" summary="change font">
+      <option name="closed" value="true" />
+      <created>1697667711805</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697667711805</updated>
+    </task>
+    <task id="LOCAL-00003" summary="setting header">
+      <option name="closed" value="true" />
+      <created>1697667720921</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697667720921</updated>
+    </task>
+    <task id="LOCAL-00004" summary="change root layout">
+      <option name="closed" value="true" />
+      <created>1697667734903</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697667734903</updated>
+    </task>
+    <task id="LOCAL-00005" summary="setting logo component">
+      <option name="closed" value="true" />
+      <created>1697667754643</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697667754643</updated>
+    </task>
+    <task id="LOCAL-00006" summary="setting logo style">
+      <option name="closed" value="true" />
+      <created>1697667760044</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697667760044</updated>
+    </task>
+    <task id="LOCAL-00007" summary="setting main page ( add logo )">
+      <option name="closed" value="true" />
+      <created>1697667782036</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1697667782036</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add sass">
+      <option name="closed" value="true" />
+      <created>1697667800223</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1697667800223</updated>
+    </task>
+    <task id="LOCAL-00009" summary="setting layout include header">
+      <option name="closed" value="true" />
+      <created>1697667821108</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1697667821108</updated>
+    </task>
     <task active="true" id="Default" summary="Default task">
-      <changelist id="080925e7-9c58-4a9e-9be2-284ea4d8418c" name="Changes" comment="" />
-      <created>1697567983620</created>
+      <changelist id="2e29e22b-5a4b-4966-b0b0-fc6961d96623" name="Changes" comment="setting layout include header" />
+      <created>1697927174245</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1697567983620</updated>
-      <workItem from="1697567984763" duration="3561000" />
-      <workItem from="1697572887190" duration="2514000" />
-      <workItem from="1697641638629" duration="2194000" />
+      <updated>1697927174245</updated>
+      <workItem from="1697927176960" duration="17000" />
+      <workItem from="1697927221678" duration="19562000" />
+      <workItem from="1698101951026" duration="2209000" />
     </task>
-    <task id="LOCAL-00001" summary="first commit">
+    <task id="LOCAL-00010" summary="set activeLink">
       <option name="closed" value="true" />
-      <created>1697573983574</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
+      <created>1697941050813</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
-      <updated>1697573983574</updated>
+      <updated>1697941050813</updated>
     </task>
-    <task id="LOCAL-00002" summary="add sass">
+    <task id="LOCAL-00011" summary="setting color in scss">
       <option name="closed" value="true" />
-      <created>1697574249442</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
+      <created>1697941059413</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
       <option name="project" value="LOCAL" />
-      <updated>1697574249442</updated>
+      <updated>1697941059413</updated>
     </task>
-    <task id="LOCAL-00003" summary="set example style in login page">
+    <task id="LOCAL-00012" summary="change color ts">
       <option name="closed" value="true" />
-      <created>1697574264169</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
+      <created>1697941069673</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
       <option name="project" value="LOCAL" />
-      <updated>1697574264169</updated>
+      <updated>1697941069674</updated>
     </task>
-    <task id="LOCAL-00004" summary="set example style in login page">
+    <task id="LOCAL-00013" summary="change gnb wrapping map">
       <option name="closed" value="true" />
-      <created>1697574270795</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
+      <created>1697941086740</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
       <option name="project" value="LOCAL" />
-      <updated>1697574270795</updated>
+      <updated>1697941086740</updated>
     </task>
-    <task id="LOCAL-00001" summary="add vitest">
+    <task id="LOCAL-00014" summary="setting gnb array">
       <option name="closed" value="true" />
-      <created>1697650256906</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
+      <created>1697941098373</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
       <option name="project" value="LOCAL" />
-      <updated>1697650256906</updated>
+      <updated>1697941098373</updated>
     </task>
-    <task id="LOCAL-00002" summary="add vite config">
+    <task id="LOCAL-00015" summary="setting common layout scss">
       <option name="closed" value="true" />
-      <created>1697650264930</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
+      <created>1697941113818</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
       <option name="project" value="LOCAL" />
-      <updated>1697650264930</updated>
+      <updated>1697941113818</updated>
     </task>
-    <task id="LOCAL-00003" summary="add vitest config">
+    <task id="LOCAL-00016" summary="setting common layout wrapping Layout components">
       <option name="closed" value="true" />
-      <created>1697650269208</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
+      <created>1697941134818</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
       <option name="project" value="LOCAL" />
-      <updated>1697650269208</updated>
+      <updated>1697941134818</updated>
     </task>
-    <task id="LOCAL-00004" summary="workspace">
+    <task id="LOCAL-00017" summary="setting Layout components">
       <option name="closed" value="true" />
-      <created>1697650276983</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
+      <created>1697941147288</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
       <option name="project" value="LOCAL" />
-      <updated>1697650276983</updated>
+      <updated>1697941147288</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00018" summary="change logo component scss">
+      <option name="closed" value="true" />
+      <created>1697941164803</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1697941164803</updated>
+    </task>
+    <task id="LOCAL-00019" summary="delete logo component">
+      <option name="closed" value="true" />
+      <created>1697941189063</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1697941189063</updated>
+    </task>
+    <task id="LOCAL-00020" summary="gitIgnore change">
+      <option name="closed" value="true" />
+      <created>1697941237759</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1697941237760</updated>
+    </task>
+    <task id="LOCAL-00021" summary="change gnb active style">
+      <option name="closed" value="true" />
+      <created>1697947782249</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1697947782249</updated>
+    </task>
+    <task id="LOCAL-00022" summary="set gnb active style animation">
+      <option name="closed" value="true" />
+      <created>1697947796295</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1697947796295</updated>
+    </task>
+    <task id="LOCAL-00023" summary="change title">
+      <option name="closed" value="true" />
+      <created>1697947808519</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1697947808519</updated>
+    </task>
+    <task id="LOCAL-00024" summary="add framer-motion">
+      <option name="closed" value="true" />
+      <created>1697947844640</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1697947844640</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add vitest" />
-    <MESSAGE value="add vite config" />
-    <MESSAGE value="add vitest config" />
-    <MESSAGE value="workspace" />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace" />ame="LAST_COMMIT_MESSAGE" value="fix gitigniore file (add workspace)" />
+    <MESSAGE value="change workspace" />
+    <MESSAGE value="gitignore update" />
+    <MESSAGE value="change font" />
+    <MESSAGE value="setting header" />
+    <MESSAGE value="change root layout" />
+    <MESSAGE value="setting logo component" />
+    <MESSAGE value="setting logo style" />
+    <MESSAGE value="setting main page ( add logo )" />
+    <MESSAGE value="add sass" />
+    <MESSAGE value="setting layout include header" />
+    <MESSAGE value="set activeLink" />
+    <MESSAGE value="setting color in scss" />
+    <MESSAGE value="change color ts" />
+    <MESSAGE value="change gnb wrapping map" />
+    <MESSAGE value="setting gnb array" />
+    <MESSAGE value="setting common layout scss" />
+    <MESSAGE value="setting common layout wrapping Layout components" />
+    <MESSAGE value="setting Layout components" />
+    <MESSAGE value="change logo component scss" />
+    <MESSAGE value="delete logo component" />
+    <MESSAGE value="gitIgnore change" />
+    <MESSAGE value="change gnb active style" />
+    <MESSAGE value="set gnb active style animation" />
+    <MESSAGE value="change title" />
+    <MESSAGE value="add framer-motion" />
+    <option name="LAST_COMMIT_MESSAGE" value="add framer-motion" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/gnbArray.ts</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
