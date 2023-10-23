@@ -1,5 +1,4 @@
 import {generalFont, newspaperFont} from "@/assets/font/font";
-import {Logo} from "@/layout/logo";
 import React from "react";
 
 export default function Home() {
